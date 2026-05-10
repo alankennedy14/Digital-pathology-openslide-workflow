@@ -1,0 +1,6 @@
+openslide-python
+openslide-bin
+numpy
+pillow
+pandas
+scikit-learn
