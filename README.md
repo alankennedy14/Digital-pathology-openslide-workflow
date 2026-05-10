@@ -49,3 +49,28 @@ The script creates an output folder called:
 
 ```text
 tissue_patches
+
+
+
+## PyTorch Prototype Workflow
+
+An exploratory PyTorch image-classification workflow was also tested using extracted pathology image patches.
+
+This included:
+
+- loading image datasets using torchvision
+- converting pathology image patches into tensors
+- CPU/GPU-aware device selection
+- training a simple neural network for tissue/background classification
+
+Example training output:
+
+```text
+Using device: cpu
+Classes: ['Background', 'Tissue']
+
+Epoch 1, Loss: 9.4472
+Epoch 2, Loss: 8.6236
+Epoch 3, Loss: 7.9350
+Epoch 4, Loss: 7.0284
+Epoch 5, Loss: 6.0061
